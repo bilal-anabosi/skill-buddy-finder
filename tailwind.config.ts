@@ -52,6 +52,22 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				'expert-blue': {
+					DEFAULT: 'hsl(var(--expert-blue))',
+					foreground: 'hsl(var(--expert-blue-foreground))'
+				},
+				'expert-teal': {
+					DEFAULT: 'hsl(var(--expert-teal))',
+					foreground: 'hsl(var(--expert-teal-foreground))'
+				},
+				'expert-pink': {
+					DEFAULT: 'hsl(var(--expert-pink))',
+					foreground: 'hsl(var(--expert-pink-foreground))'
+				},
+				'expert-green': {
+					DEFAULT: 'hsl(var(--expert-green))',
+					foreground: 'hsl(var(--expert-green-foreground))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -88,7 +104,21 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 6s ease-in-out infinite',
+				'pulse-slow': 'pulse 4s ease-in-out infinite'
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-blue': 'var(--gradient-blue)',
+				'gradient-teal': 'var(--gradient-teal)',
+				'gradient-pink': 'var(--gradient-pink)',
+				'gradient-green': 'var(--gradient-green)'
+			},
+			boxShadow: {
+				'soft': 'var(--shadow-soft)',
+				'medium': 'var(--shadow-medium)',
+				'strong': 'var(--shadow-strong)'
 			}
 		}
 	},
